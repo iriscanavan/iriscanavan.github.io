@@ -5,19 +5,26 @@
   </head>
   <link rel="stylesheet" type="text/css" href="styles.css" />
   <body style="background-color:black;">
-    <p>hello, world!</p>
-    <label for="color">Choose text color:</label>
-    <select name="textColor" id="textColor">
-      <option value="white">White</option>
-      <option value="red">Red</option>
-      <option value="orange">Orange</option>
-      <option value="green">Green</option>
-      <option value="blue">Blue</option>
-      <option value="purple">Purple</option>
-      <option value="pink">Pink</option>
-    </select>
-    &nbsp;
-    <button onclick = "changeTextColor()">Submit</button>
+    <div class="container">
+      <div class="left-content">
+        <h1>Iris Canavan's Personal Site</h1>
+        <p>hello, world!</p>
+      </div>
+      <div class="right-content">
+        <label for="color">Choose text color:</label>
+        <select name="textColor" id="textColor">
+          <option value="white">White</option>
+          <option value="red">Red</option>
+          <option value="orange">Orange</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+          <option value="purple">Purple</option>
+          <option value="pink">Pink</option>
+        </select>
+        &nbsp;
+        <button onclick = "changeTextColor()">Submit</button>
+      </div>
+    </div>
     <script src = "text-color.js"></script>
   </body>
 </html>
